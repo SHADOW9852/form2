@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Interview form</title>
+    <link rel="stylesheet" href="6th.css">
+</head>
+
+<body>
+<script src="6.js"></script>
+    <form action="get"><div style="margin-bottom: 20px;">
+        <label for="first name" >First Name:</label>
+        <input id="first name" type="text" name="first Name" placeholder="First name" style="margin-left: 50px;" required>
+    </div>
+    <div style="margin-bottom: 20px;">
+    <label for="last name">Last Name:</label>
+    <input type="text"  required name="last name" id="last name" placeholder="last name" style="margin-left: 50px;">
+</div>    
+<div style="margin-bottom: 20px;">
+    <label for="email address">Email Address:</label>
+    <input style="margin-left: 25px;" type="email" name="Email Address" required placeholder="abc@gmail.com" id="email address">
+</div>
+<div style="margin-bottom: 20px;">
+    <label for="title">Title:</label>
+   <input required style="margin-left: 90px;" placeholder="Title" type="text" name="text" id="title">
+</div>
+<div style="margin-bottom: 20px;">
+    <label for="phone no."> Phone No. :</label>
+<input required type="number" placeholder="1234567890" style="margin-left: 50px;" name="phone no." id="phone no.">
+</div>
+<div style="margin-bottom: 20px;">
+<label for="training session 2010">Training Session 2010</label>
+<select required name="select a date " id="training session 2010">
+    <option value="in july">In June</option>
+    <option value="in july">In July</option>
+    <option value="in july">In Auguest</option>
+    <option value="in july">In September</option>
+    <option value="in july">In October</option>
+    <option value="in july">In November</option>
+    <option value="in july">In December</option>
+    
+</select>
+</div>
+<div style="margin-bottom: 20px;"> 
+    <label  for="job function">Job Function:</label>
+    <input type="radio" name="only" id="job function">Campaign Management
+    <br> 
+    <input style="margin-left: 97px;" type="radio" name="only" id="job function">CRM Administration
+    <br>
+    <input style="margin-left: 97px;" type="radio" name="only" id="job function">Email Deployment
+    <br><input style="margin-left: 97px;" type="radio" name="only" id="job function">Partner
+   <br> <input style="margin-left: 97px;" type="radio" name="only" id="job function">Employee
+    
+</div>
+<div style="margin-bottom: 20px;">
+    <label for="dietary requirements">Dietary Requirements</label>
+    <input type="text">
+
+</div>
+<div style="margin-bottom: 40px;">
+    <label for="expectation">Expectation?:</label>
+<textarea name="expectation" id="expectation" rows="5"></textarea>
+</div>
+<div >
+    <input type="submit" value="submit">
+</div>
+</form>
+</body>
+
+</html>
